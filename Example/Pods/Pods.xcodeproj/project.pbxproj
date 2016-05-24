@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16F03A96558A2517F15C45279A555560 /* Pods-AWTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7B985CEC45F9C01290B3ABE1964470 /* Pods-AWTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F7DC0FDF4B76CDD50664EF9A9EAFE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		78F6BE1FB8646A502D3C38222221377D /* Pods-AWTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2559377E977BF7EE4F93B9B029F129AC /* Pods-AWTableView_Tests-dummy.m */; };
+		8047C5634B3C357591DE418668621502 /* AWTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91832C4EEF12A79F3F709921A6C76400 /* AWTableView-dummy.m */; };
+		9756ECF71CF3EBBF0083B90C /* AWMultipleColumnTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9756ECE81CF3EBBF0083B90C /* AWMultipleColumnTableViewDataSource.h */; };
+		9756ECF81CF3EBBF0083B90C /* AWMultipleColumnTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9756ECE91CF3EBBF0083B90C /* AWMultipleColumnTableViewDataSource.m */; };
+		9756ECF91CF3EBBF0083B90C /* AWTableDataConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9756ECEA1CF3EBBF0083B90C /* AWTableDataConfig.h */; };
+		9756ECFA1CF3EBBF0083B90C /* AWTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9756ECEB1CF3EBBF0083B90C /* AWTableViewDataSource.h */; };
+		9756ECFB1CF3EBBF0083B90C /* AWTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9756ECEC1CF3EBBF0083B90C /* AWTableViewDataSource.m */; };
+		9756ECFC1CF3EBBF0083B90C /* UITableView+CompatibilityHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9756ECED1CF3EBBF0083B90C /* UITableView+CompatibilityHandle.h */; };
+		9756ECFD1CF3EBBF0083B90C /* UITableView+CompatibilityHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9756ECEE1CF3EBBF0083B90C /* UITableView+CompatibilityHandle.m */; };
+		9756ECFE1CF3EBBF0083B90C /* UITableView+LoadEmptyOrErrorHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9756ECEF1CF3EBBF0083B90C /* UITableView+LoadEmptyOrErrorHandle.h */; };
+		9756ECFF1CF3EBBF0083B90C /* UITableView+LoadEmptyOrErrorHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9756ECF01CF3EBBF0083B90C /* UITableView+LoadEmptyOrErrorHandle.m */; };
+		9756ED001CF3EBBF0083B90C /* UITableView+LoadNetworkData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9756ECF11CF3EBBF0083B90C /* UITableView+LoadNetworkData.h */; };
+		9756ED011CF3EBBF0083B90C /* UITableView+LoadNetworkData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9756ECF21CF3EBBF0083B90C /* UITableView+LoadNetworkData.m */; };
+		9756ED021CF3EBBF0083B90C /* UITableView+RemoveBlankCells.h in Headers */ = {isa = PBXBuildFile; fileRef = 9756ECF31CF3EBBF0083B90C /* UITableView+RemoveBlankCells.h */; };
+		9756ED031CF3EBBF0083B90C /* UITableView+RemoveBlankCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 9756ECF41CF3EBBF0083B90C /* UITableView+RemoveBlankCells.m */; };
+		9756ED041CF3EBBF0083B90C /* UITableViewCell+RemoveBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 9756ECF51CF3EBBF0083B90C /* UITableViewCell+RemoveBackground.h */; };
+		9756ED051CF3EBBF0083B90C /* UITableViewCell+RemoveBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 9756ECF61CF3EBBF0083B90C /* UITableViewCell+RemoveBackground.m */; };
+		CCFA57417C814007E02D55323CE772C1 /* AWTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A867854ACF8442DDEA945AA0C768449E /* AWTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0015A8D087811480427779537D94416 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		969940693C667E5E66CB7F6716BD8FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06CDD7C744FEDB1E0036C6B060ACC999;
+			remoteInfo = AWTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DD5828B3E27851DA6B574939AE1C66A /* Pods_AWTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2559377E977BF7EE4F93B9B029F129AC /* Pods-AWTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AWTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		3073FCAF628EB9431B0A2C55E9CAE4CB /* AWTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWTableView-prefix.pch"; sourceTree = "<group>"; };
+		40324B9E1CF1D9EBB3A670AB4F4C1EDB /* AWTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWTableView.xcconfig; sourceTree = "<group>"; };
+		5E9707644251B1BEEB253E737F73D352 /* AWTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AWTableView.modulemap; sourceTree = "<group>"; };
+		67E644E8A3713E1A46770821E4734468 /* Pods-AWTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AA5FC1110B20133901D782F887FB019 /* Pods-AWTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7B71544585BB5EEA3C9CA768BCAE29E8 /* Pods-AWTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AWTableView_Tests.modulemap"; sourceTree = "<group>"; };
+		8E2AFB5DED8F3D29308BA9309F768D2F /* AWTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91832C4EEF12A79F3F709921A6C76400 /* AWTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWTableView-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9756ECE81CF3EBBF0083B90C /* AWMultipleColumnTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWMultipleColumnTableViewDataSource.h; sourceTree = "<group>"; };
+		9756ECE91CF3EBBF0083B90C /* AWMultipleColumnTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWMultipleColumnTableViewDataSource.m; sourceTree = "<group>"; };
+		9756ECEA1CF3EBBF0083B90C /* AWTableDataConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTableDataConfig.h; sourceTree = "<group>"; };
+		9756ECEB1CF3EBBF0083B90C /* AWTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTableViewDataSource.h; sourceTree = "<group>"; };
+		9756ECEC1CF3EBBF0083B90C /* AWTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTableViewDataSource.m; sourceTree = "<group>"; };
+		9756ECED1CF3EBBF0083B90C /* UITableView+CompatibilityHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CompatibilityHandle.h"; sourceTree = "<group>"; };
+		9756ECEE1CF3EBBF0083B90C /* UITableView+CompatibilityHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CompatibilityHandle.m"; sourceTree = "<group>"; };
+		9756ECEF1CF3EBBF0083B90C /* UITableView+LoadEmptyOrErrorHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LoadEmptyOrErrorHandle.h"; sourceTree = "<group>"; };
+		9756ECF01CF3EBBF0083B90C /* UITableView+LoadEmptyOrErrorHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LoadEmptyOrErrorHandle.m"; sourceTree = "<group>"; };
+		9756ECF11CF3EBBF0083B90C /* UITableView+LoadNetworkData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LoadNetworkData.h"; sourceTree = "<group>"; };
+		9756ECF21CF3EBBF0083B90C /* UITableView+LoadNetworkData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LoadNetworkData.m"; sourceTree = "<group>"; };
+		9756ECF31CF3EBBF0083B90C /* UITableView+RemoveBlankCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+RemoveBlankCells.h"; sourceTree = "<group>"; };
+		9756ECF41CF3EBBF0083B90C /* UITableView+RemoveBlankCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+RemoveBlankCells.m"; sourceTree = "<group>"; };
+		9756ECF51CF3EBBF0083B90C /* UITableViewCell+RemoveBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+RemoveBackground.h"; sourceTree = "<group>"; };
+		9756ECF61CF3EBBF0083B90C /* UITableViewCell+RemoveBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+RemoveBackground.m"; sourceTree = "<group>"; };
+		9D7BB348D1A8AC4B9A571087D764E0E3 /* Pods-AWTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AWTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A867854ACF8442DDEA945AA0C768449E /* AWTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWTableView-umbrella.h"; sourceTree = "<group>"; };
+		B9CBED53458BDAB09DBD6C786305CF59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7D23B7C3A20F92ADDB0A9168A1B2081 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0713A38A9A56B90FC8EC9043F96804 /* Pods-AWTableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWTableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F4F20E958F59B9E8B104D147322C384F /* Pods-AWTableView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWTableView_Tests-resources.sh"; sourceTree = "<group>"; };
+		F6C167DAD45C52AE7739DCF86D3AF4C4 /* Pods-AWTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AWTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC7B985CEC45F9C01290B3ABE1964470 /* Pods-AWTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AWTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9C0F3C33AA988070D3F6AB3D83C5982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F7DC0FDF4B76CDD50664EF9A9EAFE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F413205AF1B685C644C5DF2B5085E02A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0015A8D087811480427779537D94416 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B0B9F064838AC320D66B1975E90ED7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E9707644251B1BEEB253E737F73D352 /* AWTableView.modulemap */,
+				40324B9E1CF1D9EBB3A670AB4F4C1EDB /* AWTableView.xcconfig */,
+				91832C4EEF12A79F3F709921A6C76400 /* AWTableView-dummy.m */,
+				3073FCAF628EB9431B0A2C55E9CAE4CB /* AWTableView-prefix.pch */,
+				A867854ACF8442DDEA945AA0C768449E /* AWTableView-umbrella.h */,
+				B9CBED53458BDAB09DBD6C786305CF59 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AWTableView";
+			sourceTree = "<group>";
+		};
+		056D367841241575CB76DA94AA824AA0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E1A7681675DB8B7C9479D1EEA89AEEE /* Pods-AWTableView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0BBC1855E8AB3B68246D10213846D103 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9756ECE81CF3EBBF0083B90C /* AWMultipleColumnTableViewDataSource.h */,
+				9756ECE91CF3EBBF0083B90C /* AWMultipleColumnTableViewDataSource.m */,
+				9756ECEA1CF3EBBF0083B90C /* AWTableDataConfig.h */,
+				9756ECEB1CF3EBBF0083B90C /* AWTableViewDataSource.h */,
+				9756ECEC1CF3EBBF0083B90C /* AWTableViewDataSource.m */,
+				9756ECED1CF3EBBF0083B90C /* UITableView+CompatibilityHandle.h */,
+				9756ECEE1CF3EBBF0083B90C /* UITableView+CompatibilityHandle.m */,
+				9756ECEF1CF3EBBF0083B90C /* UITableView+LoadEmptyOrErrorHandle.h */,
+				9756ECF01CF3EBBF0083B90C /* UITableView+LoadEmptyOrErrorHandle.m */,
+				9756ECF11CF3EBBF0083B90C /* UITableView+LoadNetworkData.h */,
+				9756ECF21CF3EBBF0083B90C /* UITableView+LoadNetworkData.m */,
+				9756ECF31CF3EBBF0083B90C /* UITableView+RemoveBlankCells.h */,
+				9756ECF41CF3EBBF0083B90C /* UITableView+RemoveBlankCells.m */,
+				9756ECF51CF3EBBF0083B90C /* UITableViewCell+RemoveBackground.h */,
+				9756ECF61CF3EBBF0083B90C /* UITableViewCell+RemoveBackground.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1E1A7681675DB8B7C9479D1EEA89AEEE /* Pods-AWTableView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D7D23B7C3A20F92ADDB0A9168A1B2081 /* Info.plist */,
+				7B71544585BB5EEA3C9CA768BCAE29E8 /* Pods-AWTableView_Tests.modulemap */,
+				F6C167DAD45C52AE7739DCF86D3AF4C4 /* Pods-AWTableView_Tests-acknowledgements.markdown */,
+				9D7BB348D1A8AC4B9A571087D764E0E3 /* Pods-AWTableView_Tests-acknowledgements.plist */,
+				2559377E977BF7EE4F93B9B029F129AC /* Pods-AWTableView_Tests-dummy.m */,
+				EA0713A38A9A56B90FC8EC9043F96804 /* Pods-AWTableView_Tests-frameworks.sh */,
+				F4F20E958F59B9E8B104D147322C384F /* Pods-AWTableView_Tests-resources.sh */,
+				FC7B985CEC45F9C01290B3ABE1964470 /* Pods-AWTableView_Tests-umbrella.h */,
+				67E644E8A3713E1A46770821E4734468 /* Pods-AWTableView_Tests.debug.xcconfig */,
+				7AA5FC1110B20133901D782F887FB019 /* Pods-AWTableView_Tests.release.xcconfig */,
+			);
+			name = "Pods-AWTableView_Tests";
+			path = "Target Support Files/Pods-AWTableView_Tests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3EA9D14D0E6EDA73B8C063C1325AFF59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E2AFB5DED8F3D29308BA9309F768D2F /* AWTableView.framework */,
+				1DD5828B3E27851DA6B574939AE1C66A /* Pods_AWTableView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B6CBAC3F33C131174AB885498E588D06 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3EA9D14D0E6EDA73B8C063C1325AFF59 /* Products */,
+				056D367841241575CB76DA94AA824AA0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A0B346EC3E91329D6F539903554BA34D /* AWTableView */ = {
+			isa = PBXGroup;
+			children = (
+				0BBC1855E8AB3B68246D10213846D103 /* Classes */,
+			);
+			path = AWTableView;
+			sourceTree = "<group>";
+		};
+		A260EBF132B86F349D1BD0EDA797AE55 /* AWTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A0B346EC3E91329D6F539903554BA34D /* AWTableView */,
+				04B0B9F064838AC320D66B1975E90ED7 /* Support Files */,
+			);
+			name = AWTableView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B6CBAC3F33C131174AB885498E588D06 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A260EBF132B86F349D1BD0EDA797AE55 /* AWTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B924FB72A84DCD4FD53E38613876037 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F03A96558A2517F15C45279A555560 /* Pods-AWTableView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B01A52479D29F63A35845219BAAB6E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9756ECFE1CF3EBBF0083B90C /* UITableView+LoadEmptyOrErrorHandle.h in Headers */,
+				9756ED041CF3EBBF0083B90C /* UITableViewCell+RemoveBackground.h in Headers */,
+				9756ED021CF3EBBF0083B90C /* UITableView+RemoveBlankCells.h in Headers */,
+				9756ED001CF3EBBF0083B90C /* UITableView+LoadNetworkData.h in Headers */,
+				9756ECF91CF3EBBF0083B90C /* AWTableDataConfig.h in Headers */,
+				9756ECFC1CF3EBBF0083B90C /* UITableView+CompatibilityHandle.h in Headers */,
+				CCFA57417C814007E02D55323CE772C1 /* AWTableView-umbrella.h in Headers */,
+				9756ECF71CF3EBBF0083B90C /* AWMultipleColumnTableViewDataSource.h in Headers */,
+				9756ECFA1CF3EBBF0083B90C /* AWTableViewDataSource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06CDD7C744FEDB1E0036C6B060ACC999 /* AWTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D183DE0B1151AE53B1C9625334BE144 /* Build configuration list for PBXNativeTarget "AWTableView" */;
+			buildPhases = (
+				05D312A8F8553E5A077A0E7A9E0835D3 /* Sources */,
+				F413205AF1B685C644C5DF2B5085E02A /* Frameworks */,
+				9B01A52479D29F63A35845219BAAB6E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWTableView;
+			productName = AWTableView;
+			productReference = 8E2AFB5DED8F3D29308BA9309F768D2F /* AWTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		453A6CA94EA1A06BF97791C0008A9A66 /* Pods-AWTableView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D435824FBEFAFE3AA47E73537EF3CF /* Build configuration list for PBXNativeTarget "Pods-AWTableView_Tests" */;
+			buildPhases = (
+				3849A1EE31567F715CF716FB33193581 /* Sources */,
+				E9C0F3C33AA988070D3F6AB3D83C5982 /* Frameworks */,
+				1B924FB72A84DCD4FD53E38613876037 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2AFD74B3EA8E96D8A8310F25D62403A /* PBXTargetDependency */,
+			);
+			name = "Pods-AWTableView_Tests";
+			productName = "Pods-AWTableView_Tests";
+			productReference = 1DD5828B3E27851DA6B574939AE1C66A /* Pods_AWTableView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3EA9D14D0E6EDA73B8C063C1325AFF59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06CDD7C744FEDB1E0036C6B060ACC999 /* AWTableView */,
+				453A6CA94EA1A06BF97791C0008A9A66 /* Pods-AWTableView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05D312A8F8553E5A077A0E7A9E0835D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9756ECFF1CF3EBBF0083B90C /* UITableView+LoadEmptyOrErrorHandle.m in Sources */,
+				9756ECFB1CF3EBBF0083B90C /* AWTableViewDataSource.m in Sources */,
+				9756ED011CF3EBBF0083B90C /* UITableView+LoadNetworkData.m in Sources */,
+				9756ED051CF3EBBF0083B90C /* UITableViewCell+RemoveBackground.m in Sources */,
+				9756ECF81CF3EBBF0083B90C /* AWMultipleColumnTableViewDataSource.m in Sources */,
+				9756ECFD1CF3EBBF0083B90C /* UITableView+CompatibilityHandle.m in Sources */,
+				9756ED031CF3EBBF0083B90C /* UITableView+RemoveBlankCells.m in Sources */,
+				8047C5634B3C357591DE418668621502 /* AWTableView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3849A1EE31567F715CF716FB33193581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F6BE1FB8646A502D3C38222221377D /* Pods-AWTableView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2AFD74B3EA8E96D8A8310F25D62403A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWTableView;
+			target = 06CDD7C744FEDB1E0036C6B060ACC999 /* AWTableView */;
+			targetProxy = 969940693C667E5E66CB7F6716BD8FEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55FBA07F80402D151E7B4D58B5656F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40324B9E1CF1D9EBB3A670AB4F4C1EDB /* AWTableView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AWTableView/AWTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AWTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AWTableView/AWTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AWTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		889AB283EEE74ECBF303EB60902E7915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E644E8A3713E1A46770821E4734468 /* Pods-AWTableView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AWTableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AWTableView_Tests/Pods-AWTableView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AWTableView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA0D91E0C80DC6A89968DAC8D4B313B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AA5FC1110B20133901D782F887FB019 /* Pods-AWTableView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AWTableView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AWTableView_Tests/Pods-AWTableView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AWTableView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3FB0AA8C3A95CBD604C4C6873C769E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40324B9E1CF1D9EBB3A670AB4F4C1EDB /* AWTableView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AWTableView/AWTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AWTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AWTableView/AWTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AWTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D183DE0B1151AE53B1C9625334BE144 /* Build configuration list for PBXNativeTarget "AWTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FB0AA8C3A95CBD604C4C6873C769E4 /* Debug */,
+				55FBA07F80402D151E7B4D58B5656F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D435824FBEFAFE3AA47E73537EF3CF /* Build configuration list for PBXNativeTarget "Pods-AWTableView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889AB283EEE74ECBF303EB60902E7915 /* Debug */,
+				CA0D91E0C80DC6A89968DAC8D4B313B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

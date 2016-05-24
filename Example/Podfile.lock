@@ -1,0 +1,16 @@
+PODS:
+  - AWTableView (0.1.0)
+
+DEPENDENCIES:
+  - AWTableView (from `../`)
+
+EXTERNAL SOURCES:
+  AWTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AWTableView: 919aa00d10af4ec3d0bf1e44eb222f4fdd200fcc
+
+PODFILE CHECKSUM: 678ded8630f5c6d033e54903c45fa138da341dd2
+
+COCOAPODS: 1.0.0

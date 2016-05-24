@@ -1,0 +1,6 @@
+framework module AWTableView {
+  umbrella header "AWTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

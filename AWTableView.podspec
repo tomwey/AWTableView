@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AWTableView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AWTableView.'
+  s.summary          = 'UITableView相关的工具操作类以及扩展'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/AWTableView'
+  s.homepage         = 'https://github.com/tomwey/AWTableView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tomwey' => 'tomwey@163.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/AWTableView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tomwey/AWTableView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'AWTableView/Classes/**/*'
   
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

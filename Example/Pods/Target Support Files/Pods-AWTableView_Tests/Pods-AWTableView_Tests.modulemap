@@ -1,0 +1,6 @@
+framework module Pods_AWTableView_Tests {
+  umbrella header "Pods-AWTableView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

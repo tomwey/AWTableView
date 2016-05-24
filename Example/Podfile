@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AWTableView_Tests' do
+  pod 'AWTableView', :path => '../'
+  
+  
+end
